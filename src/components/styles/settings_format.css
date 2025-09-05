@@ -1,0 +1,80 @@
+.settings_formats_header_container{
+    margin-left: 100px;
+}
+
+.header_divider_section{
+    opacity: 30%;
+}
+
+.main_section_info_content{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.add_new_formats {
+    padding: 10px 27px;
+    background-color: rgb(69, 88, 190);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.add_new_formats:hover {
+    transform: scale(1.05);
+    filter: blur(0.3px);
+    transition: all 0.7s ease;
+}
+
+
+.formats_table_header_sections {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+
+.useless_checkbox{
+    flex: 0 0 auto;
+    margin-right: 300px;
+}
+
+.formats_name_section{
+    flex: 1 1 auto;
+    margin-right: 40px;
+}
+
+.info_section_placeholder{
+    flex: 0 0 1100px;
+    text-align: left;
+}
+
+
+.formats_template_section {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    margin-right: 30px;
+}
+
+.formats_template_section:hover {
+    background-color: #f5f5f5;
+}
+
+.formats_name_and_icon_fetch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
